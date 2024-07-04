@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="w-[80%] mx-auto mt-8">
         <div className="flex justify-between">
           <div className="flex justify-between gap-20 items-center">
-            <h1 className="text-4xl font-bold uppercase ">re</h1>
+            <h1 className="text-4xl font-bold uppercase ">ak</h1>
             <div className="hidden justify-between h-10 gap-1 lg:flex">
               <div className="flex bg-gray-200 rounded-full">
                 <div className="bg-white p-2 rounded-full m-1">

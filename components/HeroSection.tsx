@@ -1,5 +1,5 @@
 import Image from "next/image";
-import personImage from '@/public/user_1.jpg'
+import personImage from '@/public/user_4.jpeg'
 import projectImage from '@/public/black_background.jpg'
 import javascriptLogo from '@/public/javascript_logo.png'
 
@@ -11,14 +11,14 @@ const HeroSection = () => {
     <div className="w-100 my-11">
         <div className="relative block lg:grid md:grid-rows-1 grid-flow-col gap-16 w-[80%] mx-auto">
             <div className="grid-cols-1">
-              <h1 className="max-sm:text-5xl text-7xl max-lg:text-center leading-[5rem] font-semibold"><span className="text-orange-300">Designing</span>  the <br /> digital <span className="text-orange-300">world</span></h1>
-              <p className="mt-8 w-full lg:w-[27rem] text-sm text-gray-500">
+              <h1 className="max-sm:text-5xl text-7xl max-lg:text-center leading-[5rem] font-semibold animate-bounce"><span className="text-orange-300">Asharudheen kp</span>  the <br /> Web <span className="text-orange-300">Developer</span></h1>
+              <p className="mt-8 w-full lg:w-[27rem] text-sm text-gray-500 animate-fade-up">
                 A passionate web developer skilled in PHP, Laravel, and JavaScript, dedicated to creating dynamic and user-friendly web applications. Experienced in full-stack development, with a keen eye for detail and a commitment to staying updated with the latest technologies.
               </p>
 
               <div className="flex gap-3 mt-7">
-                <button className="px-5 py-2 rounded-full bg-gray-200">More</button>
-                <button className="px-5 py-2 rounded-full bg-black text-white">Get in touch</button>
+                <button className="px-5 py-2 rounded-full bg-gray-200 animate-fade-left">More</button>
+                <button className="px-5 py-2 rounded-full bg-black text-white animate-fade-left">Get in touch</button>
               </div>
 
               <div className="mt-16 relative">
@@ -56,7 +56,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className=" max-md:mt-5 grid-cols-1  md:absolute md:right-[30%] lg:right-[27%] xl:right-[40%] top-[30%] z-10 md:w-[30%] lg:w-[20%] h-auto bg-gray-200 px-5 py-3 rounded-2xl">
+            <div className="animate-flip-up max-md:mt-5 grid-cols-1  md:absolute md:right-[30%] lg:right-[27%] xl:right-[40%] top-[30%] z-10 md:w-[30%] lg:w-[20%] h-auto bg-gray-200 px-5 py-3 rounded-2xl">
                 <div className="flex justify-between items-center border-b border-gray-300 text-gray-500 py-1">
                   <p>1</p>
                   <p>Laravel</p>
