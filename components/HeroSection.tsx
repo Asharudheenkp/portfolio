@@ -1,5 +1,5 @@
 import Image from "next/image";
-import personImage from '@/public/user_4.jpeg'
+import personImage from '@/public/user_2.jpg'
 import projectImage from '@/public/black_background.jpg'
 import javascriptLogo from '@/public/javascript_logo.png'
 
